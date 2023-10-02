@@ -1,0 +1,93 @@
+.home-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.home-content{
+    width: 49%;
+    color: var(--text-color);
+    &_image{
+        width: 75%;
+        margin: auto;
+        border-radius: var(--radius);
+    }
+    &_sub{
+        display: block;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    &_title{
+        font-size: 50px;
+        margin-bottom: 1rem;
+    }
+    &_jobname{
+        display: block;
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+    &_description{
+        margin-bottom: 1rem;
+        max-width: 450px;
+        line-height: 2rem;
+    }
+    &-media{
+
+
+        &_item{
+            font-size: 20px;
+            margin-right: 0.7rem;
+            display: inline-flex;
+            width: 40px;
+            height: 40px;
+            font-size: 16px;
+            color: var(--white);
+            background-color: var(--purple);
+            align-items: center;
+            justify-content: center;
+            border: var(--border-2);
+            border-color: var(--purple);
+            border-radius: var(--radius);
+            transition: var(--transition);
+            &:hover{
+                color: var(--purple);
+                background-color: var(--white)
+            }
+        }
+    }
+
+}
+
+@media (max-width: 735px) {
+    .home-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    .home-content{
+        width: 90%;
+        color: var(--text-color);
+        &_image{
+            width: 75%;
+            margin: auto;
+            border-radius: var(--radius);
+            margin-bottom: 2rem;
+        }
+
+
+    
+    }
+}
+
+@media (max-width: 430px) {
+    .home-content_title {
+        font-size: 40px;
+        margin-bottom: 1rem;
+    }
+    .home-content-media{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

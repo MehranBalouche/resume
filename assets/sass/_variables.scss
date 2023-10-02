@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "vazir";
+    src: url("./fonts/Vazirmatn.ttf");
+}
+
+:root {
+    --bg-body: #f8fafd;
+    --text-color: rgb(24, 5, 37);
+    --white: #fff;
+    --black: #000;
+    --border-1: 1px solid #e1e3e1;
+    --border-2: 2px solid #e1e3e1;
+    --radius: 12px;
+    --purple: #884ab2;
+    --yellow: #ecbd2c;
+    --hover-color: #884ab2;
+    --active-color: #884ab2;
+    --bg-icon-1: #e6eeff;
+    --bg-card: #f8fafd;
+    --input-color: #212529;
+    --transition: all 0.4s;
+    --muted: #5b5b5b;
+    --bgbar:#f4ecff;
+    --shadow: 0 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+[class="dark"] {
+    --bg-body: #191b1f;
+    --text-color: rgb(241 245 249);
+    --border-1: 1px solid #444746;
+    --border-2: 2px solid #444746;
+    --hover-color: #ecbd2c;
+    --active-color: #ecbd2c;
+    --bg-card: #16171b;
+    --bg-icon-1: #884ab2;
+    --input-color: #adb5bd;
+    --muted: #ffffffaf;
+    --bgbar:#36383c;
+    --shadow: 0 0px 10px 2px rgba(255, 255, 255, 0.1);
+
+}
