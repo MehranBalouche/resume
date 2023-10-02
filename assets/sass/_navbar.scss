@@ -24,6 +24,16 @@
             }
     
         }
+        &-toggle{
+            font-size: 30px;
+            color: var(--text-color);
+            transition: var(--transition);
+            cursor: pointer;
+            &:not(.active-item):hover{
+                color: var(--hover-color);
+            }
+    
+        }
     }
 
 

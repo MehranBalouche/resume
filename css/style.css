@@ -127,6 +127,15 @@ img {
 .navbar-menu-item:not(.active-item):hover {
   color: var(--hover-color);
 }
+.navbar-menu-toggle {
+  font-size: 30px;
+  color: var(--text-color);
+  transition: var(--transition);
+  cursor: pointer;
+}
+.navbar-menu-toggle:not(.active-item):hover {
+  color: var(--hover-color);
+}
 
 .active-item {
   color: var(--active-color);
